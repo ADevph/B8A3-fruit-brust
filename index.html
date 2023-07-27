@@ -86,9 +86,9 @@
         <div class="hero-content text-center text-neutral-content">
           <div class="max-w-md">
             <h1 class="mb-5 text-5xl font-Extrabold text-[#fff]">Exotic tastes at your 
-               doorstep</h1>
+               <br>doorstep</h1>
             <p class="mb-5 text-white">We supply highly quality organic products</p>
-            <button class="btn btn-primary bg-[#F85559] rounded-lg text-white">Shop Now</button>
+            <button class="btn btn-primary bg-[#F85559] rounded-lg border-none hover:bg-[#F85559] text-white">Shop Now</button>
 
            
           </div>
@@ -113,7 +113,8 @@
            <h1 class="mb-5 text-5xl font-bold text-[#fff]">Exotic tastes at your 
               doorstep</h1>
            <p class="mb-5 text-white">We supply highly quality organic products</p>
-           <button class="btn btn-primary text-white">Shop Now</button>
+           <button class="btn btn-primary bg-[#F85559] rounded-lg border-none hover:bg-[#F85559] text-white">Shop Now</button>
+
 
          </div>
        </div>
@@ -135,7 +136,7 @@
            <h1 class="mb-5 text-5xl font-bold text-[#fff]">Exotic tastes at your 
               doorstep</h1>
            <p class="mb-5 text-white">We supply highly quality organic products</p>
-           <button class="btn btn-primary text-white">Shop Now</button>
+           <button class="btn btn-primary bg-[#F85559] rounded-lg border-none hover:bg-[#F85559] text-white">Shop Now</button>
 
          </div>
        </div>
@@ -158,7 +159,8 @@
            <h1 class="mb-5 text-5xl font-bold text-[#fff]">Exotic tastes at your 
               doorstep</h1>
            <p class="mb-5 text-white">We supply highly quality organic products</p>
-           <button class="btn btn-primary text-white">Shop Now</button>
+           <button class="btn btn-primary bg-[#F85559] rounded-lg border-none hover:bg-[#F85559] text-white">Shop Now</button>
+
 
 
          </div>
@@ -218,31 +220,35 @@
     <p class="text-sm text-black my-4">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
   </div>
   
-  <div class="flex-auto w-32">
-    <div class="flex gap-5">
+  <div class="flex-auto w-32 ml-80 ">
+    <div class="flex gap-8">
       <div>
         <span class="countdown font-mono text-4xl">
           <span style="--value:29;"></span>
         </span>
-        days
+        <p class="-mt-8 font-extrabold ml-16"> : </p>
+       <br> Days
       </div> 
       <div>
         <span class="countdown font-mono text-4xl">
           <span style="--value:15;"></span>
         </span>
-        hours
+        <p class="-mt-8 font-extrabold ml-16"> : </p>
+        <br> Hours
       </div> 
       <div>
         <span class="countdown font-mono text-4xl">
           <span style="--value:25;"></span>
         </span>
-        min
+        <p class="-mt-8 font-extrabold ml-16"> : </p>
+       <br> Minutes
       </div> 
       <div>
         <span class="countdown font-mono text-4xl">
           <span style="--value:8;"></span>
         </span>
-        sec
+        <p class=" hidden"> : </p>
+        <p class="mt-4"> Seconds </p> 
       </div>
     </div>
   </div>
@@ -250,17 +256,18 @@
 </div>
 
 
-<!-- newwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww -->
+<!-- bottom section of deal-->
 
 
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mr-24 mt-6 justify-center items-center">
   <!-- card 1 -->
-  <div class="card border-[1px] border-zinc-200">
+  <div class="card border-[1px] bg-[#12121219]">
     <figure class="pt-10">
       <img src="./images/fruit6.png" alt="" class="rounded-xl" />
     </figure>
     <div class="card-body items-center text-center space-y-5">
       <h2 class="text-black text-2xl font-bold">12.90$ - 18.85$</h2>
+      <div class="mx-auto w-64 border-b-2 border-b-[#12121219] "></div>
       <p class="text-black text-base font-medium">Apples</p>
       <div class="rating rating-lg rating-half">
         <input type="radio" name="rating-10" class="rating-hidden" />
@@ -277,9 +284,9 @@
       </div>
       <!-- modal section -->
       <div class="card-actions">
-        <!-- Open the modal using ID.showModal() method -->
-        <button class="text-[#F85559] text-lg font-bold" onclick="my_modal_5.showModal()">Details</button>
-        <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+       
+        <button class="text-[#F85559] text-lg font-bold" onclick="my_modal_1.showModal()">Details</button>
+        <dialog id="my_modal_1" class="modal modal-bottom sm:modal-middle">
           <form method="dialog" class="modal-box">
             <div class="card">
               <figure class="pt-10">
@@ -304,9 +311,9 @@
               </div>
             </div>
             <div class="modal-action card-actions justify-center">
-              <!-- if there is a button in form, it will close the modal -->
-              <button class="btn normal-case text-white text-xl font-bold bg-main-bg-color hover:bg-main-bg-color border-none lg:px-7 lg:h-14">Close</button>
-              <button class="btn normal-case text-white text-xl font-bold bg-main-bg-color hover:bg-main-bg-color border-none lg:px-7 lg:h-14">Shop Now</button>
+              <!--  modal buttons -->
+              <button class="btn normal-case text-[#F85559] text-xl font-bold bg-white border-[#F85559] lg:px-7 lg:h-14">Close</button>
+              <button class="btn normal-case text-white bg-[#F85559] hover:bg-[#F85559] text-xl font-bold bg-main-bg-color border-none lg:px-7 lg:h-14">Shop Now</button>
             </div>
           </form>
         </dialog>
@@ -314,12 +321,13 @@
     </div>
   </div>
   <!-- card 2 -->
-  <div class="card border-[1px] border-zinc-200">
+  <div class="card border-[1px] bg-[#12121219]">
     <figure class="pt-10">
       <img src="./images/fruit7.png" alt="" class="rounded-xl" />
     </figure>
     <div class="card-body items-center text-center space-y-5">
       <h2 class="text-black text-2xl font-bold">12.90$ - 18.85$</h2>
+      <div class="mx-auto w-64 border-b-2 border-b-[#12121219] "></div>
       <p class="text-black text-base font-medium">Orange</p>
       <div class="rating rating-lg rating-half">
         <input type="radio" name="rating-11" class="rating-hidden" />
@@ -336,9 +344,9 @@
       </div>
       <!-- modal section -->
       <div class="card-actions">
-        <!-- Open the modal using ID.showModal() method -->
-        <button class="text-[#F85559] text-lg font-bold" onclick="my_modal_4.showModal()">Details</button>
-        <dialog id="my_modal_4" class="modal modal-bottom sm:modal-middle">
+       
+        <button class="text-[#F85559] text-lg font-bold" onclick="my_modal_2.showModal()">Details</button>
+        <dialog id="my_modal_2" class="modal modal-bottom sm:modal-middle">
           <form method="dialog" class="modal-box">
             <div class="card">
               <figure class="pt-10">
@@ -363,9 +371,9 @@
               </div>
             </div>
             <div class="modal-action card-actions justify-center">
-              <!-- if there is a button in form, it will close the modal -->
-              <button class="btn normal-case text-white text-xl font-bold bg-main-bg-color hover:bg-main-bg-color border-none lg:px-7 lg:h-14">Close</button>
-              <button class="btn normal-case text-white text-xl font-bold bg-main-bg-color hover:bg-main-bg-color border-none lg:px-7 lg:h-14">Shop Now</button>
+             
+              <button class="btn normal-case text-[#F85559] text-xl font-bold bg-white border-[#F85559] lg:px-7 lg:h-14">Close</button>
+              <button class="btn normal-case text-white bg-[#F85559] hover:bg-[#F85559] text-xl font-bold bg-main-bg-color border-none lg:px-7 lg:h-14">Shop Now</button>
             </div>
           </form>
         </dialog>
@@ -373,12 +381,13 @@
     </div>
   </div>
   <!-- card 3 -->
-  <div class="card border-[1px] border-zinc-200">
+  <div class="card border-[1px] bg-[#12121219]">
     <figure class="pt-10">
       <img src="./images/fruit8.png" alt="" class="rounded-xl" />
     </figure>
     <div class="card-body items-center text-center space-y-5">
       <h2 class="text-black text-2xl font-bold">12.90$ - 18.85$</h2>
+      <div class="mx-auto w-64 border-b-2 border-b-[#12121219] "></div>
       <p class="text-black text-base font-medium">Red Dragon</p>
       <div class="rating rating-lg rating-half">
         <input type="radio" name="rating-12" class="rating-hidden" />
@@ -395,7 +404,7 @@
       </div>
       <!-- modal section -->
       <div class="card-actions">
-        <!-- Open the modal using ID.showModal() method -->
+       
         <button class="text-[#F85559] text-lg font-bold" onclick="my_modal_3.showModal()">Details</button>
         <dialog id="my_modal_3" class="modal modal-bottom sm:modal-middle">
           <form method="dialog" class="modal-box">
@@ -422,9 +431,9 @@
               </div>
             </div>
             <div class="modal-action card-actions justify-center">
-              <!-- if there is a button in form, it will close the modal -->
-              <button class="btn normal-case text-white text-xl font-bold bg-main-bg-color hover:bg-main-bg-color border-none lg:px-7 lg:h-14">Close</button>
-              <button class="btn normal-case text-white text-xl font-bold bg-main-bg-color hover:bg-main-bg-color border-none lg:px-7 lg:h-14">Shop Now</button>
+             
+              <button class="btn normal-case text-[#F85559] text-xl font-bold bg-white border-[#F85559] lg:px-7 lg:h-14">Close</button>
+              <button class="btn normal-case text-white bg-[#F85559] hover:bg-[#F85559] text-xl font-bold bg-main-bg-color border-none lg:px-7 lg:h-14">Shop Now</button>
             </div>
           </form>
         </dialog>
@@ -432,12 +441,13 @@
     </div>
   </div>
   <!-- card 4 -->
-  <div class="card border-[1px] border-zinc-200">
+  <div class="card border-[1px] bg-[#12121219]">
     <figure class="pt-10">
       <img src="./images/fruit9.png" alt="" class="rounded-xl" />
     </figure>
     <div class="card-body items-center text-center space-y-5">
       <h2 class="text-black text-2xl font-bold">12.90$ - 18.85$</h2>
+      <div class="mx-auto w-64 border-b-2 border-b-[#12121219] "></div>
       <p class="text-black text-base font-medium">Banana</p>
       <div class="rating rating-lg rating-half">
         <input type="radio" name="rating-13" class="rating-hidden" />
@@ -455,8 +465,8 @@
       <!-- modal section -->
       <div class="card-actions">
         <!-- Open the modal using ID.showModal() method -->
-        <button class="text-[#F85559] text-lg font-bold" onclick="my_modal_2.showModal()">Details</button>
-        <dialog id="my_modal_2" class="modal modal-bottom sm:modal-middle">
+        <button class="text-[#F85559] text-lg font-bold" onclick="my_modal_4.showModal()">Details</button>
+        <dialog id="my_modal_4" class="modal modal-bottom sm:modal-middle">
           <form method="dialog" class="modal-box">
             <div class="card">
               <figure class="pt-10">
@@ -481,21 +491,268 @@
               </div>
             </div>
             <div class="modal-action card-actions justify-center">
-              <!-- if there is a button in form, it will close the modal -->
-              <button class="btn normal-case text-white text-xl font-bold bg-main-bg-color hover:bg-main-bg-color border-none lg:px-7 lg:h-14">Close</button>
-              <button class="btn normal-case text-white text-xl font-bold bg-main-bg-color hover:bg-main-bg-color border-none lg:px-7 lg:h-14">Shop Now</button>
+              <button class="btn normal-case text-[#F85559] text-xl font-bold bg-white border-[#F85559] lg:px-7 lg:h-14">Close</button>
+              <button class="btn normal-case text-white bg-[#F85559] hover:bg-[#F85559] text-xl font-bold bg-main-bg-color border-none lg:px-7 lg:h-14">Shop Now</button>
             </div>
           </form>
         </dialog>
       </div>
     </div>
   </div>
+ 
+    <button class="btn btn-primary w-32 mt-2 bg-[#F85559] rounded-lg border-none hover:bg-[#F85559] text-white">Shop All</button>
+ 
+
 </div>
 
 
-
-
 </div>
+
+
+<section class="team-containar ">
+  <div class="hero containar  relative rounded-lg mb-[140px] mt-24 ml-[60] mr-[60] w-[1500px] h-[700px]"  style="background-image: url('./images/banner1.png');">
+  <div class="hero-overlay bg-opacity-60">
+ 
+    <div class="text-center space-y-10 mt-32">
+      
+ <h1 class="text-white font-extrabold text-4xl">Meet the team section</h1>
+ <p class="text-white text-base mt-4 ">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+    </div>
+
+    <div class="lg:flex lg:justify-center items-center space-y-10 space-x-20 lg:text-center mt-10">
+         <div class=" pt-10 pl-10">
+              <img src="./images/member1.png" alt="">
+              <p class="text-white font-bold text-2xl " >Awlad Hossain</p>
+              <p class="text-white">Fruits Expert</p>
+              <div class="text-[#F85559] text-2xl mt-2">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+         </div>
+         <div>
+              <img src="./images/member2.png" alt="">
+              <p class="text-white font-bold text-2xl ">Safia Chowdhury</p>
+              <p class="text-white">Fruits Expert</p>
+              <div class="text-[#F85559] text-2xl mt-2">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+         </div>
+         <div>
+              <img src="./images/member3.png" alt="">
+              <p class="text-white font-bold text-2xl ">Rokib Hossain</p>
+              <p class="text-white">Fruits Expert</p>
+              <div class="text-[#F85559] text-2xl mt-2">               
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+         </div>
+         <div>
+              <img src="./images/member4.png" alt="">
+              <p class="text-white font-bold text-2xl ">Chaity</p>
+              <p class="text-white">Fruits Expert</p>
+              <div class="text-[#F85559] text-2xl mt-2">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+         </div>
+    </div>
+
+
+
+  </div>
+  </div> 
+ </section>
+
+
+
+
+     <!-- Section Why-us -->
+
+     <section class="my-6 md:my-24">
+      <h1 class="md:text-4xl xl:text-5xl text-2xl font-extrabold text-black text-center">
+        Why Choose Us
+      </h1>
+      <p
+        class="my-6 xl:w-[600px] md:w-[500px] w-[100%] mx-auto text-center  text-base font-medium text-[#12121299]">
+      
+        Contrary to popular belief, is not simply random text.It has roots in
+        a piece of classical Latin literature from 45 BC, making it over 2000
+        years old.
+      </p>
+      <div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 mt-12">
+      
+        <div class="text-center md:text-left w-[70%] md:w-full mx-auto">
+          <div
+            class="flex flex-col md:flex-row gap-4 xl:gap-10 md:gap-6 mt-6 justify-between items-center"
+          >
+          <div class="relative md:w-36 xl:w-28 h-14 w-14 rounded-full mb-4 ml-2">
+            <!-- Ellipse Icon -->
+            <img
+              src="images/Ellipse 2.png"
+              class="absolute top-0 left-0 w-full h-full"
+              alt=""
+            />
+            <!-- Image -->
+            <img
+              src="images/group 1.png"
+              class="w-4/5 h-3/4 m-2 relative z-10"
+              alt="Shoes"
+            />
+          </div>
+          
+          
+            <div>
+              <h3 class="text-xl font-extrabold">Dedicated Team</h3>
+          
+              <div class="w-24 h-0.5 bg-black mx-auto md:mx-0 my-1"></div>
+
+
+              <div class="text-heroGray font-medium leading-relaxed">
+                Professional employees are there for you to pick the most
+                amazing and fresh fruits.
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col md:flex-row gap-4 xl:gap-10 md:gap-6 mt-6 justify-between items-center"
+          >
+            <div
+              class="md:w-36 xl:w-28 h-14 w-14 rounded-full flex justify-center items-center bg-hero-light-gray"
+            >
+              <img
+                src="images/love 1.png"
+                class="w-full h-full p-4"
+                alt="Shoes"
+              />
+            </div>
+            <div>
+              <h3 class="text-xl font-extrabold">Fresh is Best</h3>
+              <div class="w-24 h-0.5 bg-black mx-auto md:mx-0 my-1"></div>
+
+              <div class="text-heroGray font-medium leading-relaxed">
+                Professional employees are there for you to pick the most
+                amazing and fresh fruits.
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col md:flex-row gap-4 xl:gap-10 md:gap-6 mt-6 justify-between items-center"
+          >
+            <div
+              class="md:w-36 xl:w-28 h-14 w-14 rounded-full flex justify-center items-center bg-hero-light-gray"
+            >
+              <img
+                src="images/gift-box 1.png"
+                class="w-full h-full p-4"
+                alt="Shoes"
+              />
+            </div>
+            <div>
+              <h3 class="text-xl font-extrabold">Gift Certificates</h3>
+              <div class="w-24 h-0.5 bg-black mx-auto md:mx-0 my-1"></div>
+
+              <div class="text-heroGray font-medium leading-relaxed">
+                Professional employees are there for you to pick the most
+                amazing and fresh fruits.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="order-first md:order-last md:col-span-2 xl:col-span-1 lg:order-none order flex flex-col justify-center items-center flex-1"
+        >
+          <img
+            src="images/whychoose1.png"
+            class="w-full h-full object-cover rounded-lg"
+            alt="Shoes"
+          />
+        </div>
+      
+        <div class="text-center md:text-right w-[70%] md:w-full mx-auto">
+          <div
+            class="flex flex-col-reverse md:flex-row gap-4 xl:gap-10 md:gap-6 mt-6 justify-between items-center"
+          >
+            <div>
+              <h3 class="text-xl font-extrabold">Integrated Supplier</h3>
+              <div class="flex justify-end">
+                <div class="w-24 h-0.5 bg-black mx-auto md:mx-0 my-1"></div>
+              </div>
+
+              <div class="text-heroGray font-medium leading-relaxed">
+                Professional employees are there for you to pick the most
+                amazing and fresh fruits.
+              </div>
+            </div>
+            <div
+              class="md:w-36 xl:w-28 h-14 w-14 rounded-full flex justify-center items-center bg-hero-light-gray"
+            >
+              <img
+                src="images/fruit 1.png"
+                alt="Shoes"
+                class="w-full h-full p-4"
+              />
+            </div>
+          </div>
+          <div
+            class="flex flex-col-reverse md:flex-row gap-4 xl:gap-10 md:gap-6 mt-6 justify-between items-center"
+          >
+            <div>
+              <h3 class="text-xl font-extrabold">Sustainable Practice</h3>
+              <div class="flex justify-end">
+                <div class="w-24 h-0.5 bg-black mx-auto md:mx-0 my-1"></div>
+              </div>
+
+              <div class="text-heroGray font-medium leading-relaxed">
+                Professional employees are there for you to pick the most
+                amazing and fresh fruits.
+              </div>
+            </div>
+            <div
+              class="md:w-36 xl:w-28 h-14 w-14 rounded-full flex justify-center items-center bg-hero-light-gray"
+            >
+              <img
+                src="images/ice-cream 1.png"
+                class="w-full h-full p-4"
+                alt="Shoes"
+              />
+            </div>
+          </div>
+          <div
+            class="flex flex-col-reverse md:flex-row gap-4 xl:gap-10 md:gap-6 mt-6 justify-between items-center"
+          >
+            <div>
+              <h3 class="text-xl font-extrabold">The Benefits Only</h3>
+              <div class="flex justify-end">
+                <div class="w-24 h-0.5 bg-black mx-auto md:mx-0 my-1"></div>
+              </div>
+
+              <div class="text-heroGray font-medium leading-relaxed">
+                Professional employees are there for you to pick the most
+                amazing and fresh fruits.
+              </div>
+            </div>
+            <div
+              class="md:w-36 xl:w-28 h-14 w-14 rounded-full flex justify-center items-center bg-hero-light-gray"
+            >
+              <img
+                src="images/like 1.png"
+                class="w-full h-full p-4"
+                alt="Shoes"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
 
 
 
@@ -506,11 +763,36 @@
 
 
  
+ <!-- footer -->
 
-    <footer class="px-4 lg:px-48 py-10 ">
-       
-    </footer>
+ <footer class="footer footer-center p-10 bg-[#121212] text-white">
+  <div>
+    <div class="flex justify-center items-center gap-2 pb-5">
+      <img src="./images/logo.png" alt="" class="max-w-[44px]" />
+      <a class="text-white text-2xl text-right font-bold">Fruit Burst</a>
+    </div>
+    <div class="space-x-8 leading-10 lg:leading-none">
+      <a class="text-base font-medium" href="#">Home</a>
+      <a class="text-base font-medium" href="#">About Us</a>
+      <a class="text-base font-medium" href="#">Shop</a>
+      <a class="text-base font-medium" href="#">All Fruits</a>
+      <a class="text-base font-medium" href="#">Support</a>
+      <a class="text-base font-medium" href="#">My Account</a>
+    </div>
+  </div>
+  <div class="w-[400px]">
+    <div class="grid grid-flow-col gap-10">
+      <a href="#"><img src="./images/twitter (2).png" alt="" /></a>
+      <a href="#"><img src="./images/facebook (1).png" alt="" /></a>
+      <a href="#"><img src="./images/youtube.png" alt="" /></a>
+      <a href="#"><img src="./images/linkedin (1).png" alt="" /></a>
+      <a href="#"><img src="./images/instagram (2).png" alt="" /></a>
+      <a href="#"><img src="./images/apple (1).png" alt="" /></a>
+    </div>
+  </div>
+</footer>
     
+
 </body>
 
 </html>
